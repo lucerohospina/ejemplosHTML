@@ -1,0 +1,24 @@
+En HTML para crear una linea horizontal utilizamos
+
+1
+<hr />
+Si queremos dar color a la línea horizontal lo hacemos así:
+
+1
+<hr style="color: #0056b2;" />
+Si queremos variar el grosor de la línea, pondremos: “size=x”, siendo “x” el número de grosor, por ejemplo:
+
+1
+<hr size="10" />
+Si queremos variar lo que ocupa de ancho la línea horizontal usaremos: “width=x %”, siendo “x” el tanto por cien que ocupa la línea:
+
+1
+<hr width="75%" />
+Si queremos quitar la sombra a la línea horizonal
+
+1
+<hr noshade="noshade" />
+Para alinear la linea a la izquierda, derecha o centro utilizamos “align”. “align = center” para el centro, “align = right” para la derecha y “align = left” para la izquierda. Por ejemplo:
+
+1
+<hr align="left" noshade="noshade" size="2" width="80%" />

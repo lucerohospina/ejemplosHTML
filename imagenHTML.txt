@@ -1,0 +1,21 @@
+Una de las primeras cosas que debemos aprender del HTML es la etiqueta <img> que funciona para colocar imágenes dentro de una página web.
+
+Para poner una imágen utilizamos el siguiente código:
+
+<img src="imagenHTML.jpg">
+
+Donde "imagenHTML.jpg" es la imagen que vamos a colocar. Deberá estar ubicada en el mismo directorio. Si queremos colocar una imagen con HTML en una página que no está colocada dentro del mismo directorio, podemos usar una ruta absoluta:
+
+<img src="folder/imagenHTML.jpg"
+
+La etiqueta <img> tiene varias propiedas como son:
+
+border, width, height, alt
+
+Ejemplo con propiedades de imágen en HTML
+
+<img src="imagenHTML.jpg" border="0" width="10" height="10">
+
+El ancho y alto (width, height) se coloca en pixeles y deben corresponder al tamaño original de la imagen para que no se distorcione.
+
+Los formatos soportados por el explorer son jpg, gif y png.
